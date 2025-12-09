@@ -1,0 +1,31 @@
+# Backend
+inventory-backend/__pycache__/
+inventory-backend/*.pyc
+inventory-backend/.pytest_cache/
+inventory-backend/.env
+inventory-backend/venv/
+
+# Frontend
+inventory_dashboard/node_modules/
+inventory_dashboard/build/
+inventory_dashboard/.env
+inventory_dashboard/.env.local
+inventory_dashboard/.env.development.local
+inventory_dashboard/.env.test.local
+inventory_dashboard/.env.production.local
+inventory_dashboard/npm-debug.log*
+inventory_dashboard/yarn-debug.log*
+inventory_dashboard/yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.env
+.env.local

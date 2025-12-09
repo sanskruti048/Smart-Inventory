@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: inventory-backend
+    runtime: python
+    pythonVersion: 3.11
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn inventory-backend.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11
+
+  - type: web
+    name: inventory-dashboard
+    runtime: node
+    nodeVersion: 18
+    buildCommand: "cd inventory_dashboard && npm install && npm run build"
+    startCommand: "cd inventory_dashboard && npm install -g serve && serve -s build -l 3000"
+    envVars:
+      - key: REACT_APP_API_URL
+        value: ${RENDER_EXTERNAL_URL}
+
+env:
+  - key: REACT_APP_API_URL
+    scope: "inventory-dashboard"

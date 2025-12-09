@@ -1,0 +1,41 @@
+sku_id,sku_name,category,store_id,city,current_stock,sales_last_30_days,price,promotion_active
+TS_RED_M,Red Crew Tee,T-Shirts,MUM_01,Mumbai,8,120,399,1
+TS_BLUE_L,Blue Crew Tee,T-Shirts,MUM_01,Mumbai,25,110,449,0
+TS_BLACK_S,Black V-Neck,T-Shirts,MUM_01,Mumbai,5,95,449,1
+TS_WHITE_M,White Basic Tee,T-Shirts,MUM_01,Mumbai,40,60,349,0
+TS_GRAPHIC_L,Graphic Print Tee,T-Shirts,MUM_01,Mumbai,12,130,499,1
+TS_RED_M,Red Crew Tee,T-Shirts,BLR_02,Bangalore,18,80,399,0
+TS_BLUE_L,Blue Crew Tee,T-Shirts,BLR_02,Bangalore,10,70,449,0
+TS_BLACK_S,Black V-Neck,T-Shirts,BLR_02,Bangalore,6,105,449,1
+TS_WHITE_M,White Basic Tee,T-Shirts,BLR_02,Bangalore,32,55,349,0
+TS_GRAPHIC_L,Graphic Print Tee,T-Shirts,BLR_02,Bangalore,4,90,499,1
+JN_BLUE_32,Blue Slim Jeans,Jeans,PUN_03,Pune,30,90,999,0
+JN_BLACK_30,Black Slim Jeans,Jeans,PUN_03,Pune,5,120,1099,1
+JN_GREY_32,Grey Slim Jeans,Jeans,PUN_03,Pune,16,70,949,0
+JN_BLUE_34,Blue Regular Jeans,Jeans,PUN_03,Pune,22,60,899,0
+JN_BLACK_32,Black Regular Jeans,Jeans,PUN_03,Pune,3,95,999,1
+JN_BLUE_32,Blue Slim Jeans,Jeans,MUM_01,Mumbai,12,85,999,0
+JN_BLACK_30,Black Slim Jeans,Jeans,BLR_02,Bangalore,7,98,1099,1
+JN_GREY_32,Grey Slim Jeans,Jeans,DEL_05,Delhi,25,55,949,0
+JN_BLUE_34,Blue Regular Jeans,Jeans,DEL_05,Delhi,40,45,899,0
+JN_BLACK_32,Black Regular Jeans,Jeans,HYD_04,Hyderabad,6,88,999,1
+SH_RUN_9,Running Shoes 9,Shoes,HYD_04,Hyderabad,14,40,1999,0
+SH_CAS_8,Casual Shoes 8,Shoes,HYD_04,Hyderabad,2,65,1799,1
+SH_FORMAL_9,Formal Shoes 9,Shoes,DEL_05,Delhi,20,35,2199,0
+SH_SNEAK_8,White Sneakers 8,Shoes,DEL_05,Delhi,5,75,2499,1
+SH_RUN_10,Running Shoes 10,Shoes,BLR_02,Bangalore,9,38,1999,0
+BG_BACK_20L,Backpack 20L,Bags,DEL_05,Delhi,55,20,1299,0
+BG_LAPTOP_15,"Laptop Bag 15""",Bags,DEL_05,Delhi,5,65,2199,1
+BG_TRAVEL_40L,Travel Bag 40L,Bags,HYD_04,Hyderabad,18,30,2499,0
+BG_SLING,Small Sling Bag,Bags,MUM_01,Mumbai,9,55,999,1
+BG_DUFFLE_30L,Duffle Bag 30L,Bags,BLR_02,Bangalore,26,22,1799,0
+WS_DENIM_M,Denim Shirt M,Women_Tops,MUM_01,Mumbai,4,110,849,1
+WS_FLANNEL_S,Flannel Shirt S,Women_Tops,MUM_01,Mumbai,28,80,799,0
+WS_CROP_L,Crop Top L,Women_Tops,BLR_02,Bangalore,15,95,699,1
+WS_DENIM_M,Denim Shirt M,Women_Tops,DEL_05,Delhi,10,60,849,0
+WS_FLANNEL_S,Flannel Shirt S,Women_Tops,PUN_03,Pune,20,50,799,0
+KT_HOODIE_M,Black Hoodie M,Winterwear,MUM_01,Mumbai,6,75,1299,1
+KT_HOODIE_L,Grey Hoodie L,Winterwear,BLR_02,Bangalore,12,65,1299,0
+KT_JACKET_M,Bomber Jacket M,Winterwear,DEL_05,Delhi,8,70,1999,1
+KT_SWEATER_S,Wool Sweater S,Winterwear,HYD_04,Hyderabad,18,40,1499,0
+KT_JACKET_L,Bomber Jacket L,Winterwear,PUN_03,Pune,5,85,1999,1
