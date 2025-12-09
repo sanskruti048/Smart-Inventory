@@ -48,10 +48,12 @@ export default function InventoryHealthPage() {
   const [search, setSearch] = useState("");
   const [lastUpdated, setLastUpdated] = useState(null);
 
+  const API_URL = process.env.REACT_APP_API_URL || "http://127.0.0.1:8000";
+
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await fetch("http://127.0.0.1:8000/latest");
+        const res = await fetch(`${API_URL}/latest`);
         const data = await res.json();
         setRecords(data.records || []);
         setFiltered(data.records || []);
